@@ -1,0 +1,36 @@
+/*cabeçalho*/
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color:rgb(215, 231, 32);
+}
+.navbar-brand img{
+    height: 100px;
+    width: 100px;
+}
+
+
+/*Conteudo principal*/
+
+
+/*banner*/
+
+/*Produtos vendidos*/
+
+/*Rodapé*/
+footer{
+    text-align: center;
+}
+footer p{
+    padding: 10px;
+
+}
+/*Botão Voltar topo*/
+
+/* página de login  */
+
+
+/* Formulário de cadastro*/
+
