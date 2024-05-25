@@ -1,36 +1,116 @@
 /*cabeçalho*/
-*{
-    padding: 0;
-    margin: 0;
+a {
+  text-decoration: none;
 }
-nav{
-    background-color:rgb(215, 231, 32);
+nav {
+  background-color: black;
 }
-.navbar-brand img{
-    height: 100px;
-    width: 100px;
+.navbar-brand img {
+  height: 80px;
+  width: 80px;
 }
-
+#navbarSupportedContent a {
+  color: white;
+}
+#navbarSupportedContent button {
+  color: white;
+}
 
 /*Conteudo principal*/
-
-
+main {
+  min-height: 500px;
+}
 /*banner*/
-
+.carousel-inner img {
+  height: 500px;
+}
 /*Produtos vendidos*/
 
-/*Rodapé*/
-footer{
-    text-align: center;
+#section-vendidos h2 {
+  text-align: center;
+  justify-items: center;
+  margin: 10px;
 }
-footer p{
-    padding: 10px;
-
+#section-vendidos .cards {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+#section-vendidos img {
+  height: 300px;
+  border-radius: 10px;
+}
+#section-vendidos .preco {
+  color: red;
+}
+/*Rodapé*/
+footer p {
+  margin-top: 20px;
+  text-align: center;
+  align-content: center;
+  font-weight: bold;
 }
 /*Botão Voltar topo*/
 
 /* página de login  */
+.logo img {
+  height: 80px;
+  width: 80px;
+}
+#login {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  height: 400px;
+  width: 300px;
+  padding: 10px;
 
+  background: rgba(13, 48, 224, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(13, 48, 224, 0.3);
+}
+#login .logo {
+  text-align: center;
+}
+#titulo_login {
+  text-align: left;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
 
+#enter {
+  text-align: center;
+}
+#botao-cadastrar {
+  text-align: center;
+  padding: 30px;
+}
 /* Formulário de cadastro*/
+#section-cadastro {
+  padding: 50px;
+}
+#form-cadastrar {
+  display: none;
+}
+#voltar {
+  position: fixed;
+  bottom: 5px;
+  right: 50px;
+}
+#titulocadastro {
+  width: 100%;
+  height: 10;
 
+  display: flex;
+  flex-direction: column;
+  padding-left: 30%;
+}
+#titulocadastro h1 {
+  text-align: left;
+}
+#titulocadastro p {
+  text-align: left;
+}
